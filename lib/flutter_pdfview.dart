@@ -280,6 +280,7 @@ class _PDFViewSettings {
       'defaultPage': defaultPage,
       'fitPolicy': fitPolicy.toString(),
       'preventLinkNavigation': preventLinkNavigation,
+      // ignore: deprecated_member_use
       'backgroundColor': backgroundColor?.value,
     };
   }
